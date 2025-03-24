@@ -1,6 +1,7 @@
 # pet and attribute classes  name, age, sex , petID, OWNER name
 from pyodbc import STRING
 
+#forced String and ints
 # Owner class
 class owner():
     def __init__(self, owner_name):
